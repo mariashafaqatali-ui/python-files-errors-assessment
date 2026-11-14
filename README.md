@@ -1,6 +1,6 @@
 <div align="center">
 
-![Personal Finance & Attendance Management System](assets/banner-main.png)
+![Personal Finance & Attendance Management System](banner-main.png)
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white)
 ![Files](https://img.shields.io/badge/Topic-File%20Handling-8b5cf6)
