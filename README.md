@@ -81,9 +81,9 @@ python attendance_cleaner.py
 
 ## 4. Task 1 - Institute Expense Tracker
 
-![Expense Tracker banner](assets/banner-expense.png)
+![Expense Tracker banner](banner-expense.png)
 
-![Expense Tracker flow](assets/flow-expense-tracker.png)
+![Expense Tracker flow](flow-expense-tracker.png)
 
 **Menu**
 
@@ -104,19 +104,19 @@ python attendance_cleaner.py
 
 ### Adding expenses and handling invalid input
 
-![Adding expenses with invalid input](assets/terminal-expense-add.png)
+![Adding expenses with invalid input](terminal-expense-add.png)
 
 ### Show all expenses and totals by category
 
-![All expenses and totals](assets/terminal-expense-report.png)
+![All expenses and totals](terminal-expense-report.png)
 
 ---
 
 ## 5. Task 2 - Student Attendance Cleaner
 
-![Attendance Cleaner banner](assets/banner-attendance.png)
+![Attendance Cleaner banner](banner-attendance.png)
 
-![Attendance Cleaner flow](assets/flow-attendance-cleaner.png)
+![Attendance Cleaner flow](flow-attendance-cleaner.png)
 
 **What it does**
 
@@ -126,7 +126,7 @@ python attendance_cleaner.py
 4. Sorts the names alphabetically.
 5. Saves the result to `attendance_clean.csv` and prints the summary.
 
-![Attendance cleaner output](assets/terminal-attendance.png)
+![Attendance cleaner output](terminal-attendance.png)
 
 ---
 
@@ -140,7 +140,7 @@ python attendance_cleaner.py
 | `FileNotFoundError` | `attendance_cleaner.py` → `read_names()` | If `attendance.txt` is missing or in the wrong folder, a traceback would confuse the user. | Prints a clear message and stops cleanly. |
 | Damaged CSV row (`KeyError` / `ValueError`) | `expense_tracker.py` → `load_expenses()` | A manually edited CSV may contain a broken row; one bad row should not block all the others. | Skips only that row and warns the user. |
 
-![Attendance file missing](assets/terminal-attendance-missing.png)
+![Attendance file missing](terminal-attendance-missing.png)
 
 ---
 
@@ -202,7 +202,7 @@ date,item,category,amount
 
 **Run 2** - the program is started again. It loads the 4 saved expenses automatically:
 
-![Data loaded on second run](assets/terminal-expense-reload.png)
+![Data loaded on second run](terminal-expense-reload.png)
 
 ---
 
