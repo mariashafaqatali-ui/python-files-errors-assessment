@@ -8,6 +8,7 @@
 ![Tests](https://img.shields.io/badge/Test%20cases-18%20passed-success)
 
 **Assessment 4 - Python Files, Errors, Sets & Comprehensions**
+**[Live Project Preview](https://claude.ai/artifact/EbdUPpE8MoNfWR7L3xSp8R)**
 
 </div>
 
